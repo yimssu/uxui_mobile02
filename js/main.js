@@ -33,7 +33,7 @@ window.addEventListener('DOMContentLoaded', function () {
     container.addListener((e) => {
 
         let scrollTop = container.scrollTop;
-        $('.posNum').html(scrollTop)
+        // $('.posNum').html(scrollTop)
 
 
         if(scrollTop >= 1414){
