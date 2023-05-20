@@ -202,6 +202,13 @@ window.addEventListener('DOMContentLoaded', function () {
         }
 
 
+        if(scrollTop >= 25560){
+            $('.title01_footer').addClass('on');
+        }
+        if(scrollTop >= 25762){
+            $('.title02_footer').addClass('on');
+        }
+
 
 
 
